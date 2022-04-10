@@ -12,15 +12,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="parent" target="18" />
+      <module name="api-gateway" target="11" />
+      <module name="discovery-service" target="11" />
+      <module name="messaging-service" target="11" />
+      <module name="promotions-messaging" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="discovery-service" options="-parameters" />
       <module name="messaging-service" options="-parameters" />
-      <module name="parent" options="-parameters" />
-      <module name="promotions-messaging" options="-parameters" />
     </option>
   </component>
 </project>

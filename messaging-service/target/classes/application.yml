@@ -19,15 +19,17 @@ email:
 
 server:
   port: 8090
+  servlet:
+    context-path: /messaging
 
 eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
 
-okta:
-  oauth2:
-    issuer: https://dev-19929343.okta.com/oauth2/default
-    client-id: 0oa4mrgnlzN0vRZHB5d7
-    # typically, never show secret but only have it here for demonstration purposes
-    client-secret: 5lask3vA3B6Tangj_LHFtdo2cGqNIhuI6NTLwpxs
+#okta:
+#  oauth2:
+#    issuer: https://dev-19929343.okta.com/oauth2/default
+#    client-id: 0oa4mrgnlzN0vRZHB5d7
+#    # typically, never show secret but only have it here for demonstration purposes
+#    client-secret: 5lask3vA3B6Tangj_LHFtdo2cGqNIhuI6NTLwpxs

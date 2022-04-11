@@ -5,77 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26aa8d9b-3269-4712-ad53-9957c72947c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/ApiGatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/ApiGatewayConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/transporters/Transporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/ZuulConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_commons_lang_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_config_check_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_boot_starter_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_sdk_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_security_oauth2_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_6_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/api-gateway-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-service/discovery-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/discovery-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/vmware/discovery/service/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/vmware/discovery/service/DiscoveryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/target/classes/com/vmware/discovery/service/DiscoveryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/classes/com/vmware/discovery/service/DiscoveryServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/messaging-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/messaging-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/MessagingConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/MessagingConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublishServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublishServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/PublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/PublishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/transporters/EmailTransporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/transporters/EmailTransporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/MessagingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/MessagingServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/PublishServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/PublishServiceController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/SubscriptionServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/SubscriptionServiceController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/dto/SubscriptionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/dto/SubscriptionRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/dto/SubscriptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/dto/SubscriptionResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/entities/Subscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/entities/Subscription.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/mapper/SubscriptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/mapper/SubscriptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/repository/MessagingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/repository/MessagingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/PublishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/PublishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/SubscriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/SubscriptionService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/transporters/EmailTransporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/transporters/EmailTransporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/transporters/Transporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/transporters/Transporter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/promotions-messaging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/promotions-messaging.iml" afterDir="false" />
     </list>
@@ -121,9 +114,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MessagingServiceApplication">
+  <component name="RunManager" selected="Application.ApiGatewayServiceApplication">
+    <configuration name="ApiGatewayServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vmware.api.gateway.service.ApiGatewayServiceApplication" />
+      <module name="api-gateway-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vmware.api.gateway.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vmware.discovery.service.DiscoveryServiceApplication" />
       <module name="discovery-service" />
@@ -163,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiGatewayServiceApplication" />
         <item itemvalue="Application.MessagingServiceApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
       </list>
@@ -178,6 +188,11 @@
       <updated>1649631570605</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

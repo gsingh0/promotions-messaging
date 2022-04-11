@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
+        <module name="api-gateway-service" />
         <module name="discovery-service" />
         <module name="messaging-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="11" />
+      <module name="api-gateway-service" target="11" />
       <module name="discovery-service" target="11" />
       <module name="messaging-service" target="11" />
       <module name="promotions-messaging" target="11" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-service" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="messaging-service" options="-parameters" />
     </option>

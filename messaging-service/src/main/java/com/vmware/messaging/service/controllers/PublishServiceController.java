@@ -4,6 +4,7 @@ import com.vmware.messaging.service.entities.Subscription;
 import com.vmware.messaging.service.repository.MessagingRepository;
 import com.vmware.messaging.service.services.PublishService;
 import com.vmware.messaging.service.transporters.EmailTransporter;
+import com.vmware.messaging.service.transporters.Transporter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +31,7 @@ public class PublishServiceController implements PublishService {
      * transporter object to send emails
      */
     @Resource
-    EmailTransporter emailTransporter;
+    Transporter emailTransporter;
 
     /**
      * {@inheritDoc}
@@ -47,7 +48,7 @@ public class PublishServiceController implements PublishService {
                 .toArray(String[]::new);
 
         LOG.info("Sending email(s) to subscriber recipients");
-        emailTransporter.sendEmail(recipients);
+        emailTransporter.send(recipients);
         LOG.info("Email(s) sent to recipients successfully");
     }
 }

@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.mail.MessagingException;
 
+/**
+ * @author gurnoorsingh
+ */
 @RequestMapping("/publish")
 public interface PublishService {
 

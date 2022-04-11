@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 /**
  * @author gurnoorsingh
  */
-public class EmailTransporter {
+public class EmailTransporter implements Transporter {
 
     /**
      * send address as part of the mail configuration
@@ -35,11 +35,10 @@ public class EmailTransporter {
     }
 
     /**
-     * Sends email to the subscriber lists
-     * @param recipients list of subscribers
-     * @throws MessagingException
+     * {@inheritDoc}
      */
-    public void sendEmail(String[] recipients) throws MessagingException {
+    @Override
+    public void send(String[] recipients) throws MessagingException {
         // message objects
         MimeMessage message = new MimeMessage(this.session);
         MimeMessageHelper messageHelper = new MimeMessageHelper(message, true);

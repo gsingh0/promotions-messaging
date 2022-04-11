@@ -3,6 +3,7 @@ package com.vmware.messaging.service.configurations;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vmware.messaging.service.mapper.SubscriptionMapper;
 import com.vmware.messaging.service.transporters.EmailTransporter;
+import com.vmware.messaging.service.transporters.Transporter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -35,7 +36,7 @@ public class MessagingConfigurations {
     }
 
     @Bean
-    public EmailTransporter emailTransporter() {
+    public Transporter emailTransporter() {
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");

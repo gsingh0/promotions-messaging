@@ -1,8 +1,18 @@
 spring:
   application:
     name: messaging-service-client
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/promotions
+    username: messaging-user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
 server:
   port: 8090
+
 eureka:
   client:
     serviceUrl:

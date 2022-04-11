@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface SubscriptionService {
 
     @PostMapping("/create")
-    SubscriptionResponse createSubscription(SubscriptionRequest subscriptionRequest);
+    SubscriptionResponse createSubscription(SubscriptionRequest subscriptionRequest)
+            throws IllegalArgumentException;
 
 }

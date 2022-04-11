@@ -1,14 +1,23 @@
 package com.vmware.messaging.service.dto;
 
+import org.springframework.validation.annotation.Validated;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
+@Validated
 public class SubscriptionRequest implements Serializable {
 
-    public String firstName;
+    @NotNull
+    private String firstName;
 
-    public String lastName;
+    @NotNull
+    private String lastName;
 
-    public String email;
+    @NotNull
+    @Email
+    private String email;
 
     public String getFirstName() {
         return firstName;

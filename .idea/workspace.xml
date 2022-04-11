@@ -5,54 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26aa8d9b-3269-4712-ad53-9957c72947c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/MessagingConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/entities/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/mapper/SubscriptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/repository/SubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/PublishResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/api-gateway-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/messaging-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/messaging-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/MessagingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/MessagingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/PublisherServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublisherServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublisherServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublishServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/SubscriptionServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/SubscriptionServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/dto/SubscriptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/entities/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/entities/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/mapper/SubscriptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/mapper/SubscriptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/repository/SubscriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/repository/MessagingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/PublishService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/controllers/SubscriptionServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/MessagingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/MessagingServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/PublisherServiceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/SubscriptionServiceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/target/messaging-service-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/messaging-service-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/MessagingConfigurations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/SubscriptionServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/controllers/SubscriptionServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/SubscriptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/services/SubscriptionService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

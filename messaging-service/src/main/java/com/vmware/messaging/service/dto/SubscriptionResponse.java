@@ -4,17 +4,17 @@ import java.io.Serializable;
 
 public class SubscriptionResponse implements Serializable {
 
-    public long id;
+    private long id;
 
-    public String firstName;
+    private String firstName;
 
-    public String lastName;
+    private String lastName;
 
-    public String email;
+    private String email;
 
-    public String message;
+    private String message;
 
-    public String getFirstName() {
+    private String getFirstName() {
         return firstName;
     }
 

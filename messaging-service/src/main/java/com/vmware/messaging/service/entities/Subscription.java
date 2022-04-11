@@ -1,26 +1,24 @@
 package com.vmware.messaging.service.entities;
-
 import javax.persistence.*;
-
 
 @Entity
 public class Subscription {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public long id;
+    private long id;
 
     @Basic
     @Column
-    public String firstName;
+    private String firstName;
 
     @Basic
     @Column
-    public String lastName;
+    private String lastName;
 
     @Basic
     @Column
-    public String email;
+    private String email;
 
     public Subscription() { }
 

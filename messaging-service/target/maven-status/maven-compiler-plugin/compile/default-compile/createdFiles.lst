@@ -1,5 +1,6 @@
 com/vmware/messaging/service/MessagingServiceApplication.class
-com/vmware/messaging/service/services/PublisherServiceController.class
-com/vmware/messaging/service/services/SubscriptionServiceController.class
+com/vmware/messaging/service/controllers/PublisherServiceController.class
+com/vmware/messaging/service/configurations/MessagingConfigurations.class
 com/vmware/messaging/service/services/SubscriptionService.class
 com/vmware/messaging/service/services/PublisherService.class
+com/vmware/messaging/service/controllers/SubscriptionServiceController.class

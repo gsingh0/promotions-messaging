@@ -1,5 +1,7 @@
 package com.vmware.messaging.service.services;
 
+import com.vmware.messaging.service.dto.SubscriptionRequest;
+import com.vmware.messaging.service.dto.SubscriptionResponse;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -7,5 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface SubscriptionService {
 
     @PostMapping("/create")
-    void createSubscription(String body);
+    SubscriptionResponse createSubscription(SubscriptionRequest subscriptionRequest);
+
 }

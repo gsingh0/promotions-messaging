@@ -1,5 +1,6 @@
-/Users/gurnoorsingh/.idea/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/PublisherServiceController.java
-/Users/gurnoorsingh/.idea/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionService.java
-/Users/gurnoorsingh/.idea/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/MessagingServiceApplication.java
-/Users/gurnoorsingh/.idea/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/PublisherService.java
-/Users/gurnoorsingh/.idea/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionServiceController.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/SubscriptionService.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/configurations/MessagingConfigurations.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/MessagingServiceApplication.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/services/PublisherService.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/controllers/PublisherServiceController.java
+/Users/gurnoorsingh/Documents/promotions-messaging/messaging-service/src/main/java/com/vmware/messaging/service/controllers/SubscriptionServiceController.java

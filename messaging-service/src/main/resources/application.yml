@@ -10,6 +10,13 @@ spring:
     password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+email:
+  accounts:
+    subscriber-username: subscriber.gsingh0
+    subscriber-password: Password.01
+    publisher-username: promotions.gsingh0@gmail.com
+    publisher-password: Password.01
+
 server:
   port: 8090
 

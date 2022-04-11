@@ -15,17 +15,29 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 
+/**
+ * @author gurnoorsingh
+ */
 @RestController
 public class SubscriptionServiceController implements SubscriptionService {
 
     private static final Logger LOG = LoggerFactory.getLogger(SubscriptionServiceController.class);
 
+    /**
+     * data access repository
+     */
     @Resource
     MessagingRepository messagingRepository;
 
+    /**
+     * mapper used to map state to different objects
+     */
     @Resource
     SubscriptionMapper subscriptionMapper;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public SubscriptionResponse createSubscription(@Valid @RequestBody SubscriptionRequest subscriptionRequest)
             throws IllegalArgumentException {

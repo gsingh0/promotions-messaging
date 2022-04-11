@@ -1,6 +1,11 @@
 package com.vmware.messaging.service.entities;
 import javax.persistence.*;
 
+/**
+ * @author gurnoorsingh
+ *
+ * Entity object saved to MySQL database
+ */
 @Entity
 public class Subscription {
 

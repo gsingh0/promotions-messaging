@@ -2,16 +2,34 @@ package com.vmware.messaging.service.dto;
 
 import java.io.Serializable;
 
+/**
+ * @author gurnoorsingh
+ */
 public class SubscriptionResponse implements Serializable {
 
+    /**
+     * id of subscriber
+     */
     private long id;
 
+    /**
+     * first name of subscriber
+     */
     private String firstName;
 
+    /**
+     * last name of subscriber
+     */
     private String lastName;
 
+    /**
+     * email of subscriber
+     */
     private String email;
 
+    /**
+     * message response sent back to client
+     */
     private String message;
 
     private String getFirstName() {

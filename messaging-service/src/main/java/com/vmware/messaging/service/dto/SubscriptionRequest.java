@@ -6,15 +6,27 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
+/**
+ * @author gurnoorsingh
+ */
 @Validated
 public class SubscriptionRequest implements Serializable {
 
+    /**
+     * first name of subscriber
+     */
     @NotNull
     private String firstName;
 
+    /**
+     * last name of subscriber
+     */
     @NotNull
     private String lastName;
 
+    /**
+     * email of subscriber
+     */
     @NotNull
     @Email
     private String email;

@@ -27,9 +27,9 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
 
-okta:
-  oauth2:
-    issuer: https://dev-19929343.okta.com/oauth2/default
-    client-id: 0oa4mxn3joBP4kHuv5d7
-    # typically, never show secret but only have it here for demonstration purposes
-    client-secret: iIRRz__UghthqvQxwUD5SvU9FYN2JUiIH3DZ9Dxz
+#okta:
+#  oauth2:
+#    issuer: https://dev-22290218.okta.com/oauth2/default
+#    client-id: 0oa4mydvo968zsHag5d7
+#    # typically, never show secret but only have it here for demonstration purposes
+#    client-secret: zMmyrbYu2jWk-Hmk8DjpmkSKh-JHKMkMLIAZsLoo

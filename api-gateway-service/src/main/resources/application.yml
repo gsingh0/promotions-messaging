@@ -2,19 +2,21 @@
 spring:
   application:
     name: api-gateway-service
+  security:
+    user:
+      name: test-user
+      password: password
 
 server:
   port: 8080
+  servlet:
+    context-path: /services
 
 zuul:
+  sensitive-headers:
+    - Cookie
+    - Set-Cookie
   routes:
     messaging-service-client:
       path: /messaging/**
       url: http://localhost:8090/messaging
-
-okta:
-  oauth2:
-    issuer: https://dev-19929343.okta.com/oauth2/default
-    client-id: 0oa4mxn3joBP4kHuv5d7
-    # typically, never show secret but only have it here for demonstration purposes
-    client-secret: iIRRz__UghthqvQxwUD5SvU9FYN2JUiIH3DZ9Dxz

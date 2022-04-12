@@ -5,39 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26aa8d9b-3269-4712-ad53-9957c72947c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_commons_lang_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_config_check_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_boot_starter_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_sdk_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_security_oauth2_2_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/SecurityApplicationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_commons_lang_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_config_check_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_boot_starter_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_sdk_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_security_oauth2_2_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_6_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/target/classes/com/vmware/api/gateway/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/messaging-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/messaging-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/src/main/java/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-service/target/classes/com/vmware/messaging/service/configurations/OktaOAuth2WebSecurityConfigurerAdapter.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MessagingServiceApplication">
+  <component name="RunManager" selected="Application.ApiGatewayServiceApplication">
     <configuration name="ApiGatewayServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vmware.api.gateway.service.ApiGatewayServiceApplication" />
       <module name="api-gateway-service" />
@@ -139,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessagingServiceApplication" />
         <item itemvalue="Application.ApiGatewayServiceApplication" />
+        <item itemvalue="Application.MessagingServiceApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
       </list>
     </recent_temporary>

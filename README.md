@@ -11,8 +11,8 @@ the promotions services.
 our architectural style
   - Zuul - used for load balancing requests, authentication, filtering, metrics, etc.
   - Eureka - service discovery server to register clients for simpler internal communication
-- Services are containerized in a container managed platform (such as Kubernetes) to handle
-incoming traffic at scale. Also reduces latency and maintains high availability
+- In an enterprise environment, services are containerized in a container managed platform (such as Kubernetes) to handle
+incoming traffic at scale. This approach also reduces latency and maintains high availability
 - In enterprise environment, should utilize a highly secure identity management service such as 
 Okta for ensuring security for the system (currently use basic auth for demonstration purposes)
 - Utilized a MySQL database to ensure ACID properties are present for every transaction

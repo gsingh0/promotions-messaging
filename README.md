@@ -1,23 +1,26 @@
-# promotions-messaging
+# Promotions-Messaging Microservice 
 
-- make sure mysql instance is running
-  - 'brew start service mysql'
+This application follows a microservices architecture design in Spring Boot. The purpose of
+this application is to mimic a promotions service such that users of an eCommerce web application
+can subscribe to future sales and receive emails on such promotions when they are available.
 
-- when talking about scale
-  - mention containerizing each service and having multiple instances of each
-  - mention that when theres a lot of emails, then you can integrate batch processing via GKE batch job
+### High-Level Architecture
+- Web application in our demonstration is substituted via Postman to make API calls to 
+the promotions services.
+- Utilized Netflix's Zuul API gateway and Eureka service discovery SDKs to implement
+our architectural style
+  - Zuul - used for load balancing requests, authentication, filtering, metrics, etc.
+  - Eureka - service discovery server to register clients for simpler internal communication
+- Services are containerized in a container managed platform (such as Kubernetes) to handle
+incoming traffic at scale. Also reduces latency and maintains high availability
+- In enterprise environment, should utilize a highly secure identity management service such as 
+Okta for ensuring security for the system (currently use basic auth for demonstration purposes)
+- Utilized a MySQL database to ensure ACID properties are present for every transaction
 
-- security
-  - simple security implementation defined
-    - using basic auth assuming that there is an authentication resource that has username and passwords of all the users
-    - for now use a single test user
-    - in enterprise environment, need to use oauth or ldap authentication
-      - oauth2:
-        - client send authorization request to resource owner (user)
-        - gets back an authorization grant
-        - client sends auth grant to authorization server
-        - gets back a token
-        - client can use token to access resource server
-        - get back resource data
+![img_2.png](img_2.png)
 
-
+### Sequence Diagrams
+#### Create Subscription Workflow
+![img.png](img.png)
+#### Publish Sale Workflow
+![img_1.png](img_1.png)
